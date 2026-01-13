@@ -1,4 +1,4 @@
-# Data Analysis Agent (BigQuery + LangGraph) — `data_analysis_agent`
+# Data Analysis Agent (BigQuery + LangGraph) `data_analysis_agent`
 
 CLI-based data analysis agent that queries Google BigQuery’s public dataset `bigquery-public-data.thelook_ecommerce` and returns actionable business insights using a 3-agent pipeline:
 
@@ -62,5 +62,6 @@ BQ_MAX_BYTES=2000000000
 ```bash
 uv run python -m app.cli
 ```
+
 
 
