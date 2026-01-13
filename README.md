@@ -43,17 +43,19 @@ The CLI prints both:
 
 ### 1) Clone repo and sync
 ```bash
-git clone <your-repo-url>
+git clone
 cd data_analysis_agent
 uv sync
 ```
 
 ### 2) .env variables
+```bash
 GOOGLE_API_KEY=YOUR_GEMINI_KEY
 GEMINI_MODEL=gemini-3-flash
 BIGQUERY_PROJECT_ID=gen-lang-client-xxxxxxxxxx
 BIGQUERY_DATASET_ID=bigquery-public-data.thelook_ecommerce
 BQ_MAX_BYTES=2000000000
+```
 
 
 ### 3) run
