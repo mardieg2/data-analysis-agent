@@ -2,7 +2,7 @@
 
 CLI-based data analysis agent that queries Google BigQuery’s public dataset `bigquery-public-data.thelook_ecommerce` and returns actionable business insights using a 3-agent pipeline:
 
-**Orchestrator → Planner → SQL Agent → BigQuery Execute → Analyst**
+**Orchestrator → 1) Planner → 2) SQL Agent → 3) BigQuery Execute → Analyst**
 
 This repo is designed to be reproducible on another machine using **uv** and **uv.lock**.
 
@@ -62,6 +62,7 @@ BQ_MAX_BYTES=2000000000
 ```bash
 uv run python -m app.cli
 ```
+
 
 
 
