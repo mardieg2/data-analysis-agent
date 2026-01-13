@@ -59,9 +59,11 @@ BQ_MAX_BYTES=2000000000
 
 
 ### 3) run
+from root:
 ```bash
 uv run python -m app.cli
 ```
+
 
 
 
